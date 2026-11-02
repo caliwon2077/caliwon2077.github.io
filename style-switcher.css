@@ -1,0 +1,17 @@
+.style-bar{color:#a6b0b5;background:#0b0f12;border-bottom:1px solid #273036;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","PingFang SC",sans-serif}
+.style-bar-inner{max-width:1280px;margin:0 auto;min-height:45px;padding:6px 60px;display:flex;align-items:center;gap:13px}
+.style-label{font-size:10px;letter-spacing:.5px}
+.style-switch{display:flex;gap:3px;padding:3px;border:1px solid #3a454b;border-radius:999px}
+.style-switch a{display:block;text-decoration:none;color:inherit;padding:4px 14px;border-radius:999px;font-size:10px;line-height:1.4;transition:background .15s,color .15s}
+.style-switch a[aria-current="page"]{background:#b7f36c;color:#17200f}
+.style-switch a:hover{background:#263426;color:#b7f36c}
+.style-switch a:focus-visible{outline:2px solid currentColor;outline-offset:3px}
+.style-bar-note{margin-left:auto;font-size:9px;letter-spacing:1.3px}
+.editorial .style-bar{background:#f7f7f5;color:#766a7c;border-bottom-color:#e5e2df}
+.editorial .style-bar-inner{max-width:1320px}
+.editorial .style-switch{border-color:#d9d4d9}
+.editorial .style-switch a[aria-current="page"]{background:#1b0624;color:#fff}
+.editorial .style-switch a:hover{background:#edece7;color:#1b0624}
+.editorial .style-switch a[aria-current="page"]:hover{background:#1b0624;color:#fff}
+@media(max-width:1100px){.style-bar-inner{padding-left:36px;padding-right:36px}}
+@media(max-width:560px){.style-bar-inner{padding-left:23px;padding-right:23px;gap:10px}.style-bar-note{font-size:7px;letter-spacing:.5px}.style-switch a{padding:5px 12px}}
